@@ -1,0 +1,28 @@
+{
+  "name": "larva/baidu-bce",
+  "description": "This is a baidu bce expansion.",
+  "keywords": [
+    "baidu",
+    "cloud",
+    "bce"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^6.3",
+    "psr/log": "^1.0",
+    "monolog/monolog": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "BaiduBce\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "prefer-stable": true
+}
